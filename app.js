@@ -8,6 +8,8 @@ app.use(bodyParser.json());
 
 //	Render views using EJS
 app.set("view engine", "ejs");
+// app.use(express.static("assets"));
+// ^^ insert CSS
 
 
 const port = process.env.PORT || 3000;
